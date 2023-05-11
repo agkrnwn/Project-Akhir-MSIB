@@ -1,0 +1,666 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+
+    <title>Dashboard</title>
+
+    <!-- Custom fonts for this template-->
+    <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css" />
+    <link href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" />
+
+    <!-- Custom styles for this template-->
+    <link href="css/sb-admin-2.min.css" rel="stylesheet" />
+  </head>
+
+  <body id="page-top">
+    <!-- Page Wrapper -->
+    <div id="wrapper">
+      <!-- Sidebar -->
+      <ul class="navbar-nav bg-gradient-primary sidebar sidebar-dark accordion" id="accordionSidebar">
+        <!-- Sidebar - Brand -->
+        <a class="sidebar-brand d-flex align-items-center justify-content-center" href="index.html">
+          <div class="sidebar-brand-icon rotate-n-15 mr-2">
+            <i class="fas fa-laugh-wink"></i>
+          </div>
+          <div class="sidebar-brand-text">My LMS</div>
+        </a>
+
+        <!-- Divider -->
+        <hr class="sidebar-divider mb-3" />
+
+        <!-- Nav Item - Dashboard -->
+        <li class="nav-item active">
+          <a class="nav-link" href="index.html">
+            <i class="bi bi-house-fill"></i>
+            <span>Beranda</span></a
+          >
+        </li>
+
+        <!-- Nav Item - Pages Collapse Menu -->
+        <li class="nav-item">
+          <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">
+            <i class="bi bi-calendar-week"></i>
+            <span>Jadwal</span>
+          </a>
+          <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionSidebar">
+            <div class="bg-white py-2 collapse-inner rounded">
+              <h6 class="collapse-header">JADWAL</h6>
+              <a class="collapse-item" href="buttons.html"
+                ><svg fill="#4E73DF" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-megaphone-fill mr-2" viewBox="0 0 16 16">
+                  <path
+                    d="M13 2.5a1.5 1.5 0 0 1 3 0v11a1.5 1.5 0 0 1-3 0v-11zm-1 .724c-2.067.95-4.539 1.481-7 1.656v6.237a25.222 25.222 0 0 1 1.088.085c2.053.204 4.038.668 5.912 1.56V3.224zm-8 7.841V4.934c-.68.027-1.399.043-2.008.053A2.02 2.02 0 0 0 0 7v2c0 1.106.896 1.996 1.994 2.009a68.14 68.14 0 0 1 .496.008 64 64 0 0 1 1.51.048zm1.39 1.081c.285.021.569.047.85.078l.253 1.69a1 1 0 0 1-.983 1.187h-.548a1 1 0 0 1-.916-.599l-1.314-2.48a65.81 65.81 0 0 1 1.692.064c.327.017.65.037.966.06z" />
+                </svg>
+                Pengumuman</a
+              >
+              <a class="collapse-item" href="cards.html"
+                ><svg fill="#4E73DF" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-calendar2-event mr-2" viewBox="0 0 16 16">
+                  <path d="M11 7.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5v-1z" />
+                  <path d="M3.5 0a.5.5 0 0 1 .5.5V1h8V.5a.5.5 0 0 1 1 0V1h1a2 2 0 0 1 2 2v11a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V3a2 2 0 0 1 2-2h1V.5a.5.5 0 0 1 .5-.5zM2 2a1 1 0 0 0-1 1v11a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V3a1 1 0 0 0-1-1H2z" />
+                  <path d="M2.5 4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5H3a.5.5 0 0 1-.5-.5V4z" />
+                </svg>
+                Kalender Akademik</a
+              >
+              <a class="collapse-item" href="cards.html"
+                ><svg fill="#4E73DF" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-kanban mr-2" viewBox="0 0 16 16">
+                  <path d="M13.5 1a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1h-11a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1h11zm-11-1a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h11a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2h-11z" />
+                  <path
+                    d="M6.5 3a1 1 0 0 1 1-1h1a1 1 0 0 1 1 1v3a1 1 0 0 1-1 1h-1a1 1 0 0 1-1-1V3zm-4 0a1 1 0 0 1 1-1h1a1 1 0 0 1 1 1v7a1 1 0 0 1-1 1h-1a1 1 0 0 1-1-1V3zm8 0a1 1 0 0 1 1-1h1a1 1 0 0 1 1 1v10a1 1 0 0 1-1 1h-1a1 1 0 0 1-1-1V3z" />
+                </svg>
+                Jadwal Minggu Ini</a
+              >
+              <a class="collapse-item" href="cards.html"
+                ><svg fill="#4E73DF" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-calendar2-range mr-2" viewBox="0 0 16 16">
+                  <path d="M3.5 0a.5.5 0 0 1 .5.5V1h8V.5a.5.5 0 0 1 1 0V1h1a2 2 0 0 1 2 2v11a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V3a2 2 0 0 1 2-2h1V.5a.5.5 0 0 1 .5-.5zM2 2a1 1 0 0 0-1 1v11a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V3a1 1 0 0 0-1-1H2z" />
+                  <path d="M2.5 4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5H3a.5.5 0 0 1-.5-.5V4zM9 8a1 1 0 0 1 1-1h5v2h-5a1 1 0 0 1-1-1zm-8 2h4a1 1 0 1 1 0 2H1v-2z" />
+                </svg>
+                Jadwal Semester</a
+              >
+            </div>
+          </div>
+        </li>
+
+        <!-- Nav Item - Utilities Collapse Menu -->
+        <li class="nav-item">
+          <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseUtilities" aria-expanded="true" aria-controls="collapseUtilities">
+            <i class="bi bi-card-list"></i>
+            <span>Akademik</span>
+          </a>
+          <div id="collapseUtilities" class="collapse" aria-labelledby="headingUtilities" data-parent="#accordionSidebar">
+            <div class="bg-white py-2 collapse-inner rounded">
+              <h6 class="collapse-header">AKADEMIK</h6>
+              <a class="collapse-item" href="utilities-color.html"
+                ><svg fill="#4E73DF" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-pencil-square mr-2" viewBox="0 0 16 16">
+                  <path
+                    d="M15.502 1.94a.5.5 0 0 1 0 .706L14.459 3.69l-2-2L13.502.646a.5.5 0 0 1 .707 0l1.293 1.293zm-1.75 2.456-2-2L4.939 9.21a.5.5 0 0 0-.121.196l-.805 2.414a.25.25 0 0 0 .316.316l2.414-.805a.5.5 0 0 0 .196-.12l6.813-6.814z" />
+                  <path fill-rule="evenodd" d="M1 13.5A1.5 1.5 0 0 0 2.5 15h11a1.5 1.5 0 0 0 1.5-1.5v-6a.5.5 0 0 0-1 0v6a.5.5 0 0 1-.5.5h-11a.5.5 0 0 1-.5-.5v-11a.5.5 0 0 1 .5-.5H9a.5.5 0 0 0 0-1H2.5A1.5 1.5 0 0 0 1 2.5v11z" />
+                </svg>
+                Pengisian KRS</a
+              >
+              <a class="collapse-item" href="utilities-border.html"
+                ><svg fill="#4E73DF" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-card-checklist mr-2" viewBox="0 0 16 16">
+                  <path d="M14.5 3a.5.5 0 0 1 .5.5v9a.5.5 0 0 1-.5.5h-13a.5.5 0 0 1-.5-.5v-9a.5.5 0 0 1 .5-.5h13zm-13-1A1.5 1.5 0 0 0 0 3.5v9A1.5 1.5 0 0 0 1.5 14h13a1.5 1.5 0 0 0 1.5-1.5v-9A1.5 1.5 0 0 0 14.5 2h-13z" />
+                  <path
+                    d="M7 5.5a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1-.5-.5zm-1.496-.854a.5.5 0 0 1 0 .708l-1.5 1.5a.5.5 0 0 1-.708 0l-.5-.5a.5.5 0 1 1 .708-.708l.146.147 1.146-1.147a.5.5 0 0 1 .708 0zM7 9.5a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1-.5-.5zm-1.496-.854a.5.5 0 0 1 0 .708l-1.5 1.5a.5.5 0 0 1-.708 0l-.5-.5a.5.5 0 0 1 .708-.708l.146.147 1.146-1.147a.5.5 0 0 1 .708 0z" />
+                </svg>
+                Riwayat KRS</a
+              >
+              <a class="collapse-item" href="utilities-animation.html"
+                ><svg fill="#4E73DF" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-bounding-box mr-2" viewBox="0 0 16 16">
+                  <path d="M5 2V0H0v5h2v6H0v5h5v-2h6v2h5v-5h-2V5h2V0h-5v2H5zm6 1v2h2v6h-2v2H5v-2H3V5h2V3h6zm1-2h3v3h-3V1zm3 11v3h-3v-3h3zM4 15H1v-3h3v3zM1 4V1h3v3H1z" />
+                </svg>
+                Kurikulum Mahasiswa</a
+              >
+              <a class="collapse-item" href="utilities-other.html"
+                ><svg fill="#4E73DF" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-journal-bookmark-fill mr-2" viewBox="0 0 16 16">
+                  <path fill-rule="evenodd" d="M6 1h6v7a.5.5 0 0 1-.757.429L9 7.083 6.757 8.43A.5.5 0 0 1 6 8V1z" />
+                  <path d="M3 0h10a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2v-1h1v1a1 1 0 0 0 1 1h10a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1H3a1 1 0 0 0-1 1v1H1V2a2 2 0 0 1 2-2z" />
+                  <path d="M1 5v-.5a.5.5 0 0 1 1 0V5h.5a.5.5 0 0 1 0 1h-2a.5.5 0 0 1 0-1H1zm0 3v-.5a.5.5 0 0 1 1 0V8h.5a.5.5 0 0 1 0 1h-2a.5.5 0 0 1 0-1H1zm0 3v-.5a.5.5 0 0 1 1 0v.5h.5a.5.5 0 0 1 0 1h-2a.5.5 0 0 1 0-1H1z" />
+                </svg>
+                Mengulang</a
+              >
+              <a class="collapse-item" href="utilities-other.html"
+                ><svg fill="#4e73df" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-clipboard2-data-fill mr-2" viewBox="0 0 16 16">
+                  <path d="M10 .5a.5.5 0 0 0-.5-.5h-3a.5.5 0 0 0-.5.5.5.5 0 0 1-.5.5.5.5 0 0 0-.5.5V2a.5.5 0 0 0 .5.5h5A.5.5 0 0 0 11 2v-.5a.5.5 0 0 0-.5-.5.5.5 0 0 1-.5-.5Z" />
+                  <path
+                    d="M4.085 1H3.5A1.5 1.5 0 0 0 2 2.5v12A1.5 1.5 0 0 0 3.5 16h9a1.5 1.5 0 0 0 1.5-1.5v-12A1.5 1.5 0 0 0 12.5 1h-.585c.055.156.085.325.085.5V2a1.5 1.5 0 0 1-1.5 1.5h-5A1.5 1.5 0 0 1 4 2v-.5c0-.175.03-.344.085-.5ZM10 7a1 1 0 1 1 2 0v5a1 1 0 1 1-2 0V7Zm-6 4a1 1 0 1 1 2 0v1a1 1 0 1 1-2 0v-1Zm4-3a1 1 0 0 1 1 1v3a1 1 0 1 1-2 0V9a1 1 0 0 1 1-1Z" />
+                </svg>
+                Nilai Mahasiswa</a
+              >
+            </div>
+          </div>
+        </li>
+
+        <!-- Nav Item - Pages Collapse Menu -->
+        <li class="nav-item">
+          <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapsePages" aria-expanded="true" aria-controls="collapsePages">
+            <i class="bi bi-bookmark-star-fill"></i>
+            <span>TIngkat Akhir</span>
+          </a>
+          <div id="collapsePages" class="collapse" aria-labelledby="headingPages" data-parent="#accordionSidebar">
+            <div class="bg-white py-2 collapse-inner rounded">
+              <h6 class="collapse-header">TINGKAT AKHIR</h6>
+              <a class="collapse-item" href="login.html"
+                ><svg fill="#4e73df" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-universal-access mr-2" viewBox="0 0 16 16">
+                  <path
+                    d="M9.5 1.5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0ZM6 5.5l-4.535-.442A.531.531 0 0 1 1.531 4H14.47a.531.531 0 0 1 .066 1.058L10 5.5V9l.452 6.42a.535.535 0 0 1-1.053.174L8.243 9.97c-.064-.252-.422-.252-.486 0l-1.156 5.624a.535.535 0 0 1-1.053-.174L6 9V5.5Z" />
+                </svg>
+                Konsultasi</a
+              >
+              <a class="collapse-item" href="register.html"
+                ><svg fill="#4e73df" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-rocket-takeoff mr-2" viewBox="0 0 16 16">
+                  <path d="M9.752 6.193c.599.6 1.73.437 2.528-.362.798-.799.96-1.932.362-2.531-.599-.6-1.73-.438-2.528.361-.798.8-.96 1.933-.362 2.532Z" />
+                  <path
+                    d="M15.811 3.312c-.363 1.534-1.334 3.626-3.64 6.218l-.24 2.408a2.56 2.56 0 0 1-.732 1.526L8.817 15.85a.51.51 0 0 1-.867-.434l.27-1.899c.04-.28-.013-.593-.131-.956a9.42 9.42 0 0 0-.249-.657l-.082-.202c-.815-.197-1.578-.662-2.191-1.277-.614-.615-1.079-1.379-1.275-2.195l-.203-.083a9.556 9.556 0 0 0-.655-.248c-.363-.119-.675-.172-.955-.132l-1.896.27A.51.51 0 0 1 .15 7.17l2.382-2.386c.41-.41.947-.67 1.524-.734h.006l2.4-.238C9.005 1.55 11.087.582 12.623.208c.89-.217 1.59-.232 2.08-.188.244.023.435.06.57.093.067.017.12.033.16.045.184.06.279.13.351.295l.029.073a3.475 3.475 0 0 1 .157.721c.055.485.051 1.178-.159 2.065Zm-4.828 7.475.04-.04-.107 1.081a1.536 1.536 0 0 1-.44.913l-1.298 1.3.054-.38c.072-.506-.034-.993-.172-1.418a8.548 8.548 0 0 0-.164-.45c.738-.065 1.462-.38 2.087-1.006ZM5.205 5c-.625.626-.94 1.351-1.004 2.09a8.497 8.497 0 0 0-.45-.164c-.424-.138-.91-.244-1.416-.172l-.38.054 1.3-1.3c.245-.246.566-.401.91-.44l1.08-.107-.04.039Zm9.406-3.961c-.38-.034-.967-.027-1.746.163-1.558.38-3.917 1.496-6.937 4.521-.62.62-.799 1.34-.687 2.051.107.676.483 1.362 1.048 1.928.564.565 1.25.941 1.924 1.049.71.112 1.429-.067 2.048-.688 3.079-3.083 4.192-5.444 4.556-6.987.183-.771.18-1.345.138-1.713a2.835 2.835 0 0 0-.045-.283 3.078 3.078 0 0 0-.3-.041Z" />
+                  <path d="M7.009 12.139a7.632 7.632 0 0 1-1.804-1.352A7.568 7.568 0 0 1 3.794 8.86c-1.102.992-1.965 5.054-1.839 5.18.125.126 3.936-.896 5.054-1.902Z" />
+                </svg>
+                Kegiatan Pendukung</a
+              >
+              <a class="collapse-item" href="forgot-password.html"
+                ><svg fill="#4e73df" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-card-list mr-2" viewBox="0 0 16 16">
+                  <path d="M14.5 3a.5.5 0 0 1 .5.5v9a.5.5 0 0 1-.5.5h-13a.5.5 0 0 1-.5-.5v-9a.5.5 0 0 1 .5-.5h13zm-13-1A1.5 1.5 0 0 0 0 3.5v9A1.5 1.5 0 0 0 1.5 14h13a1.5 1.5 0 0 0 1.5-1.5v-9A1.5 1.5 0 0 0 14.5 2h-13z" />
+                  <path
+                    d="M5 8a.5.5 0 0 1 .5-.5h7a.5.5 0 0 1 0 1h-7A.5.5 0 0 1 5 8zm0-2.5a.5.5 0 0 1 .5-.5h7a.5.5 0 0 1 0 1h-7a.5.5 0 0 1-.5-.5zm0 5a.5.5 0 0 1 .5-.5h7a.5.5 0 0 1 0 1h-7a.5.5 0 0 1-.5-.5zm-1-5a.5.5 0 1 1-1 0 .5.5 0 0 1 1 0zM4 8a.5.5 0 1 1-1 0 .5.5 0 0 1 1 0zm0 2.5a.5.5 0 1 1-1 0 .5.5 0 0 1 1 0z" />
+                </svg>
+                Daftar Proposal</a
+              >
+              <a class="collapse-item" href="forgot-password.html"
+                ><svg fill="#4e74df" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-list-check mr-2" viewBox="0 0 16 16">
+                  <path
+                    fill-rule="evenodd"
+                    d="M5 11.5a.5.5 0 0 1 .5-.5h9a.5.5 0 0 1 0 1h-9a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h9a.5.5 0 0 1 0 1h-9a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h9a.5.5 0 0 1 0 1h-9a.5.5 0 0 1-.5-.5zM3.854 2.146a.5.5 0 0 1 0 .708l-1.5 1.5a.5.5 0 0 1-.708 0l-.5-.5a.5.5 0 1 1 .708-.708L2 3.293l1.146-1.147a.5.5 0 0 1 .708 0zm0 4a.5.5 0 0 1 0 .708l-1.5 1.5a.5.5 0 0 1-.708 0l-.5-.5a.5.5 0 1 1 .708-.708L2 7.293l1.146-1.147a.5.5 0 0 1 .708 0zm0 4a.5.5 0 0 1 0 .708l-1.5 1.5a.5.5 0 0 1-.708 0l-.5-.5a.5.5 0 0 1 .708-.708l.146.147 1.146-1.147a.5.5 0 0 1 .708 0z" />
+                </svg>
+                Daftar Tugas Akhir</a
+              >
+              <a class="collapse-item" href="forgot-password.html"
+                ><svg fill="#4e74df" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-clipboard-check-fill mr-2" viewBox="0 0 16 16">
+                  <path d="M6.5 0A1.5 1.5 0 0 0 5 1.5v1A1.5 1.5 0 0 0 6.5 4h3A1.5 1.5 0 0 0 11 2.5v-1A1.5 1.5 0 0 0 9.5 0h-3Zm3 1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-3a.5.5 0 0 1-.5-.5v-1a.5.5 0 0 1 .5-.5h3Z" />
+                  <path
+                    d="M4 1.5H3a2 2 0 0 0-2 2V14a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V3.5a2 2 0 0 0-2-2h-1v1A2.5 2.5 0 0 1 9.5 5h-3A2.5 2.5 0 0 1 4 2.5v-1Zm6.854 7.354-3 3a.5.5 0 0 1-.708 0l-1.5-1.5a.5.5 0 0 1 .708-.708L7.5 10.793l2.646-2.647a.5.5 0 0 1 .708.708Z" />
+                </svg>
+                Pengajuan Yudisium</a
+              >
+              <a class="collapse-item" href="forgot-password.html"
+                ><svg fill="#4e73df" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-mortarboard mr-2" viewBox="0 0 16 16">
+                  <path
+                    d="M8.211 2.047a.5.5 0 0 0-.422 0l-7.5 3.5a.5.5 0 0 0 .025.917l7.5 3a.5.5 0 0 0 .372 0L14 7.14V13a1 1 0 0 0-1 1v2h3v-2a1 1 0 0 0-1-1V6.739l.686-.275a.5.5 0 0 0 .025-.917l-7.5-3.5ZM8 8.46 1.758 5.965 8 3.052l6.242 2.913L8 8.46Z" />
+                  <path
+                    d="M4.176 9.032a.5.5 0 0 0-.656.327l-.5 1.7a.5.5 0 0 0 .294.605l4.5 1.8a.5.5 0 0 0 .372 0l4.5-1.8a.5.5 0 0 0 .294-.605l-.5-1.7a.5.5 0 0 0-.656-.327L8 10.466 4.176 9.032Zm-.068 1.873.22-.748 3.496 1.311a.5.5 0 0 0 .352 0l3.496-1.311.22.748L8 12.46l-3.892-1.556Z" />
+                </svg>
+                Pengajuan Wisuda</a
+              >
+            </div>
+          </div>
+        </li>
+
+        <!-- Nav Item - Charts -->
+        <li class="nav-item">
+          <a class="nav-link" href="charts.html">
+            <i class="fas fa-fw fa-chart-area"></i>
+            <span>Charts</span></a
+          >
+        </li>
+
+        <!-- Nav Item - Tables -->
+        <li class="nav-item">
+          <a class="nav-link" href="tables.html">
+            <i class="fas fa-fw fa-table"></i>
+            <span>Tables</span></a
+          >
+        </li>
+      </ul>
+      <!-- End of Sidebar -->
+
+      <!-- Content Wrapper -->
+      <div id="content-wrapper" class="d-flex flex-column">
+        <!-- Main Content -->
+        <div id="content">
+          <!-- Topbar -->
+          <nav class="navbar navbar-expand navbar-light bg-white topbar mb-4 static-top shadow">
+            <!-- Sidebar Toggle (Topbar) -->
+            <button id="sidebarToggleTop" class="btn btn-link d-md-none rounded-circle mr-3">
+              <i class="fa fa-bars"></i>
+            </button>
+
+            <!-- Topbar Navbar -->
+            <ul class="navbar-nav ml-auto">
+              <!-- Nav Item - Alerts -->
+              <li class="nav-item dropdown no-arrow mx-1">
+                <a class="nav-link dropdown-toggle" href="#" id="alertsDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="23" height="23" fill="currentColor" class="bi bi-bell-fill" viewBox="0 0 16 16">
+                    <path d="M8 16a2 2 0 0 0 2-2H6a2 2 0 0 0 2 2zm.995-14.901a1 1 0 1 0-1.99 0A5.002 5.002 0 0 0 3 6c0 1.098-.5 6-2 7h14c-1.5-1-2-5.902-2-7 0-2.42-1.72-4.44-4.005-4.901z" />
+                  </svg>
+                  <!-- Counter - Alerts -->
+                  <span class="badge badge-danger badge-counter">3+</span>
+                </a>
+                <!-- Dropdown - Alerts -->
+                <div class="dropdown-list dropdown-menu dropdown-menu-right shadow animated--grow-in" aria-labelledby="alertsDropdown">
+                  <h6 class="dropdown-header">Alerts Center</h6>
+                  <a class="dropdown-item d-flex align-items-center" href="#">
+                    <div class="mr-3">
+                      <div class="icon-circle bg-primary">
+                        <i class="fas fa-file-alt text-white"></i>
+                      </div>
+                    </div>
+                    <div>
+                      <div class="small text-gray-500">December 12, 2019</div>
+                      <span class="font-weight-bold">A new monthly report is ready to download!</span>
+                    </div>
+                  </a>
+                  <a class="dropdown-item d-flex align-items-center" href="#">
+                    <div class="mr-3">
+                      <div class="icon-circle bg-success">
+                        <i class="fas fa-donate text-white"></i>
+                      </div>
+                    </div>
+                    <div>
+                      <div class="small text-gray-500">December 7, 2019</div>
+                      $290.29 has been deposited into your account!
+                    </div>
+                  </a>
+                  <a class="dropdown-item d-flex align-items-center" href="#">
+                    <div class="mr-3">
+                      <div class="icon-circle bg-warning">
+                        <i class="fas fa-exclamation-triangle text-white"></i>
+                      </div>
+                    </div>
+                    <div>
+                      <div class="small text-gray-500">December 2, 2019</div>
+                      Spending Alert: We've noticed unusually high spending for your account.
+                    </div>
+                  </a>
+                  <a class="dropdown-item text-center small text-gray-500" href="#">Show All Alerts</a>
+                </div>
+              </li>
+
+              <div class="topbar-divider d-none d-sm-block"></div>
+
+              <!-- Nav Item - User Information -->
+              <li class="nav-item dropdown no-arrow">
+                <a class="nav-link dropdown-toggle" href="#" id="userDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  <span class="mr-2 d-none d-lg-inline text-gray-600 small">Agung Kurniawan</span>
+                  <img class="img-profile rounded-circle" src="img/undraw_profile.svg" />
+                </a>
+                <!-- Dropdown - User Information -->
+                <div class="dropdown-menu dropdown-menu-right shadow animated--grow-in" aria-labelledby="userDropdown">
+                  <a class="dropdown-item" href="#">
+                    <i class="fas fa-user fa-sm fa-fw mr-2 text-gray-400"></i>
+                    Profile
+                  </a>
+                  <a class="dropdown-item" href="#">
+                    <i class="fas fa-cogs fa-sm fa-fw mr-2 text-gray-400"></i>
+                    Data Mahasiswa
+                  </a>
+                  <a class="dropdown-item" href="#">
+                    <i class="fas fa-list fa-sm fa-fw mr-2 text-gray-400"></i>
+                    Berhenti Studi
+                  </a>
+                  <div class="dropdown-divider"></div>
+                  <a class="dropdown-item" href="#"> <i class="bi bi-receipt mr-2 text-gray-400"></i>Tagihan Mahasiswa </a>
+                  <div class="dropdown-divider"></div>
+                  <a class="dropdown-item" href="#" data-toggle="modal" data-target="#logoutModal">
+                    <svg fill="red" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-box-arrow-right" viewBox="0 0 16 16">
+                      <path
+                        fill-rule="evenodd"
+                        d="M10 12.5a.5.5 0 0 1-.5.5h-8a.5.5 0 0 1-.5-.5v-9a.5.5 0 0 1 .5-.5h8a.5.5 0 0 1 .5.5v2a.5.5 0 0 0 1 0v-2A1.5 1.5 0 0 0 9.5 2h-8A1.5 1.5 0 0 0 0 3.5v9A1.5 1.5 0 0 0 1.5 14h8a1.5 1.5 0 0 0 1.5-1.5v-2a.5.5 0 0 0-1 0v2z" />
+                      <path fill-rule="evenodd" d="M15.854 8.354a.5.5 0 0 0 0-.708l-3-3a.5.5 0 0 0-.708.708L14.293 7.5H5.5a.5.5 0 0 0 0 1h8.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3z" />
+                    </svg>
+                    Keluar
+                  </a>
+                </div>
+              </li>
+            </ul>
+          </nav>
+          <!-- End of Topbar -->
+
+          <!-- Begin Page Content -->
+          <div class="container-fluid">
+            <!-- Page Heading -->
+            <div class="d-sm-flex align-items-center justify-content-between mb-4">
+              <h1 class="h3 mb-0 text-gray-800">Dashboard</h1>
+              <a href="#" class="d-none d-sm-inline-block btn btn-sm btn-primary shadow-sm"><i class="fas fa-download fa-sm text-white-50"></i> Generate Report</a>
+            </div>
+
+            <!-- Content Row -->
+            <div class="row">
+              <!-- Earnings (Monthly) Card Example -->
+              <div class="col-xl-3 col-md-6 mb-4">
+                <div class="card border-left-primary shadow h-100 py-2">
+                  <div class="card-body">
+                    <div class="row no-gutters align-items-center">
+                      <div class="col mr-2">
+                        <div class="text-xs font-weight-bold text-primary text-uppercase mb-1">Earnings (Monthly)</div>
+                        <div class="h5 mb-0 font-weight-bold text-gray-800">$40,000</div>
+                      </div>
+                      <div class="col-auto">
+                        <i class="fas fa-calendar fa-2x text-gray-300"></i>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Earnings (Monthly) Card Example -->
+              <div class="col-xl-3 col-md-6 mb-4">
+                <div class="card border-left-success shadow h-100 py-2">
+                  <div class="card-body">
+                    <div class="row no-gutters align-items-center">
+                      <div class="col mr-2">
+                        <div class="text-xs font-weight-bold text-success text-uppercase mb-1">Earnings (Annual)</div>
+                        <div class="h5 mb-0 font-weight-bold text-gray-800">$215,000</div>
+                      </div>
+                      <div class="col-auto">
+                        <i class="fas fa-dollar-sign fa-2x text-gray-300"></i>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Earnings (Monthly) Card Example -->
+              <div class="col-xl-3 col-md-6 mb-4">
+                <div class="card border-left-info shadow h-100 py-2">
+                  <div class="card-body">
+                    <div class="row no-gutters align-items-center">
+                      <div class="col mr-2">
+                        <div class="text-xs font-weight-bold text-info text-uppercase mb-1">Tasks</div>
+                        <div class="row no-gutters align-items-center">
+                          <div class="col-auto">
+                            <div class="h5 mb-0 mr-3 font-weight-bold text-gray-800">50%</div>
+                          </div>
+                          <div class="col">
+                            <div class="progress progress-sm mr-2">
+                              <div class="progress-bar bg-info" role="progressbar" style="width: 50%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-auto">
+                        <i class="fas fa-clipboard-list fa-2x text-gray-300"></i>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Pending Requests Card Example -->
+              <div class="col-xl-3 col-md-6 mb-4">
+                <div class="card border-left-warning shadow h-100 py-2">
+                  <div class="card-body">
+                    <div class="row no-gutters align-items-center">
+                      <div class="col mr-2">
+                        <div class="text-xs font-weight-bold text-warning text-uppercase mb-1">Pending Requests</div>
+                        <div class="h5 mb-0 font-weight-bold text-gray-800">18</div>
+                      </div>
+                      <div class="col-auto">
+                        <i class="fas fa-comments fa-2x text-gray-300"></i>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Content Row -->
+
+            <div class="row">
+              <!-- Area Chart -->
+              <div class="col-xl-8 col-lg-7">
+                <div class="card shadow mb-4">
+                  <!-- Card Header - Dropdown -->
+                  <div class="card-header py-3 d-flex flex-row align-items-center justify-content-between">
+                    <h6 class="m-0 font-weight-bold text-primary">Earnings Overview</h6>
+                    <div class="dropdown no-arrow">
+                      <a class="dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <i class="fas fa-ellipsis-v fa-sm fa-fw text-gray-400"></i>
+                      </a>
+                      <div class="dropdown-menu dropdown-menu-right shadow animated--fade-in" aria-labelledby="dropdownMenuLink">
+                        <div class="dropdown-header">Dropdown Header:</div>
+                        <a class="dropdown-item" href="#">Action</a>
+                        <a class="dropdown-item" href="#">Another action</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="#">Something else here</a>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- Card Body -->
+                  <div class="card-body">
+                    <div class="chart-area">
+                      <canvas id="myAreaChart"></canvas>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Pie Chart -->
+              <div class="col-xl-4 col-lg-5">
+                <div class="card shadow mb-4">
+                  <!-- Card Header - Dropdown -->
+                  <div class="card-header py-3 d-flex flex-row align-items-center justify-content-between">
+                    <h6 class="m-0 font-weight-bold text-primary">Revenue Sources</h6>
+                    <div class="dropdown no-arrow">
+                      <a class="dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <i class="fas fa-ellipsis-v fa-sm fa-fw text-gray-400"></i>
+                      </a>
+                      <div class="dropdown-menu dropdown-menu-right shadow animated--fade-in" aria-labelledby="dropdownMenuLink">
+                        <div class="dropdown-header">Dropdown Header:</div>
+                        <a class="dropdown-item" href="#">Action</a>
+                        <a class="dropdown-item" href="#">Another action</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="#">Something else here</a>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- Card Body -->
+                  <div class="card-body">
+                    <div class="chart-pie pt-4 pb-2">
+                      <canvas id="myPieChart"></canvas>
+                    </div>
+                    <div class="mt-4 text-center small">
+                      <span class="mr-2"> <i class="fas fa-circle text-primary"></i> Direct </span>
+                      <span class="mr-2"> <i class="fas fa-circle text-success"></i> Social </span>
+                      <span class="mr-2"> <i class="fas fa-circle text-info"></i> Referral </span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Content Row -->
+            <div class="row">
+              <!-- Content Column -->
+              <div class="col-lg-6 mb-4">
+                <!-- Project Card Example -->
+                <div class="card shadow mb-4">
+                  <div class="card-header py-3">
+                    <h6 class="m-0 font-weight-bold text-primary">Projects</h6>
+                  </div>
+                  <div class="card-body">
+                    <h4 class="small font-weight-bold">Server Migration <span class="float-right">20%</span></h4>
+                    <div class="progress mb-4">
+                      <div class="progress-bar bg-danger" role="progressbar" style="width: 20%" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+                    <h4 class="small font-weight-bold">Sales Tracking <span class="float-right">40%</span></h4>
+                    <div class="progress mb-4">
+                      <div class="progress-bar bg-warning" role="progressbar" style="width: 40%" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+                    <h4 class="small font-weight-bold">Customer Database <span class="float-right">60%</span></h4>
+                    <div class="progress mb-4">
+                      <div class="progress-bar" role="progressbar" style="width: 60%" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+                    <h4 class="small font-weight-bold">Payout Details <span class="float-right">80%</span></h4>
+                    <div class="progress mb-4">
+                      <div class="progress-bar bg-info" role="progressbar" style="width: 80%" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+                    <h4 class="small font-weight-bold">Account Setup <span class="float-right">Complete!</span></h4>
+                    <div class="progress">
+                      <div class="progress-bar bg-success" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- Color System -->
+                <div class="row">
+                  <div class="col-lg-6 mb-4">
+                    <div class="card bg-primary text-white shadow">
+                      <div class="card-body">
+                        Primary
+                        <div class="text-white-50 small">#4e73df</div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-6 mb-4">
+                    <div class="card bg-success text-white shadow">
+                      <div class="card-body">
+                        Success
+                        <div class="text-white-50 small">#1cc88a</div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-6 mb-4">
+                    <div class="card bg-info text-white shadow">
+                      <div class="card-body">
+                        Info
+                        <div class="text-white-50 small">#36b9cc</div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-6 mb-4">
+                    <div class="card bg-warning text-white shadow">
+                      <div class="card-body">
+                        Warning
+                        <div class="text-white-50 small">#f6c23e</div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-6 mb-4">
+                    <div class="card bg-danger text-white shadow">
+                      <div class="card-body">
+                        Danger
+                        <div class="text-white-50 small">#e74a3b</div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-6 mb-4">
+                    <div class="card bg-secondary text-white shadow">
+                      <div class="card-body">
+                        Secondary
+                        <div class="text-white-50 small">#858796</div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-6 mb-4">
+                    <div class="card bg-light text-black shadow">
+                      <div class="card-body">
+                        Light
+                        <div class="text-black-50 small">#f8f9fc</div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-6 mb-4">
+                    <div class="card bg-dark text-white shadow">
+                      <div class="card-body">
+                        Dark
+                        <div class="text-white-50 small">#5a5c69</div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-lg-6 mb-4">
+                <!-- Illustrations -->
+                <div class="card shadow mb-4">
+                  <div class="card-header py-3">
+                    <h6 class="m-0 font-weight-bold text-primary">Illustrations</h6>
+                  </div>
+                  <div class="card-body">
+                    <div class="text-center">
+                      <img class="img-fluid px-3 px-sm-4 mt-3 mb-4" style="width: 25rem" src="img/undraw_posting_photo.svg" alt="..." />
+                    </div>
+                    <p>
+                      Add some quality, svg illustrations to your project courtesy of <a target="_blank" rel="nofollow" href="https://undraw.co/">unDraw</a>, a constantly updated collection of beautiful svg images that you can use
+                      completely free and without attribution!
+                    </p>
+                    <a target="_blank" rel="nofollow" href="https://undraw.co/">Browse Illustrations on unDraw &rarr;</a>
+                  </div>
+                </div>
+
+                <!-- Approach -->
+                <div class="card shadow mb-4">
+                  <div class="card-header py-3">
+                    <h6 class="m-0 font-weight-bold text-primary">Development Approach</h6>
+                  </div>
+                  <div class="card-body">
+                    <p>SB Admin 2 makes extensive use of Bootstrap 4 utility classes in order to reduce CSS bloat and poor page performance. Custom CSS classes are used to create custom components and custom utility classes.</p>
+                    <p class="mb-0">Before working with this theme, you should become familiar with the Bootstrap framework, especially the utility classes.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- /.container-fluid -->
+        </div>
+        <!-- End of Main Content -->
+
+        <!-- Footer -->
+        <footer class="sticky-footer bg-white">
+          <div class="container my-auto">
+            <div class="copyright text-center my-auto">
+              <span>Copyright &copy; Your Website 2021</span>
+            </div>
+          </div>
+        </footer>
+        <!-- End of Footer -->
+      </div>
+      <!-- End of Content Wrapper -->
+    </div>
+    <!-- End of Page Wrapper -->
+
+    <!-- Scroll to Top Button-->
+    <a class="scroll-to-top rounded" href="#page-top">
+      <i class="fas fa-angle-up"></i>
+    </a>
+
+    <!-- Logout Modal-->
+    <div class="modal fade" id="logoutModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Ready to Leave?</h5>
+            <button class="close" type="button" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">×</span>
+            </button>
+          </div>
+          <div class="modal-body">Select "Logout" below if you are ready to end your current session.</div>
+          <div class="modal-footer">
+            <button class="btn btn-secondary" type="button" data-dismiss="modal">Cancel</button>
+            <a class="btn btn-primary" href="login.html">Logout</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Bootstrap core JavaScript-->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Core plugin JavaScript-->
+    <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+
+    <!-- Custom scripts for all pages-->
+    <script src="js/sb-admin-2.min.js"></script>
+
+    <!-- Page level plugins -->
+    <script src="vendor/chart.js/Chart.min.js"></script>
+
+    <!-- Page level custom scripts -->
+    <script src="js/demo/chart-area-demo.js"></script>
+    <script src="js/demo/chart-pie-demo.js"></script>
+  </body>
+</html>
